@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transformaciones 3D</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
@@ -15,19 +15,31 @@
             <div class="opciones">
                 <div class="input">
                     <label for="x">Vector X</label>
-                    <input type="range" name="x" id="x" min="0" max="10">
+                    <div class="inputs">
+                        <input type="range" name="x" id="x" min="-1" max="1" value="0" step="0.05">
+                        <input type="text" id="valorX" class="valor" value="0.0" readonly>
+                    </div>
                 </div>
                 <div class="input">
                     <label for="y">Vector Y</label>
-                    <input type="range" name="y" id="y" min="0" max="10">
+                    <div class="inputs">
+                        <input type="range" name="y" id="y" min="-1" max="1" value="0" step="0.05">
+                        <input type="text" id="valorY" class="valor" value="0.0" readonly>
+                    </div>
                 </div>
                 <div class="input">
                     <label for="z">Vector Z</label>
-                    <input type="range" name="z" id="z" min="0" max="10">
+                    <div class="inputs">
+                        <input type="range" name="z" id="z" min="-1" max="1" value="0" step="0.05">
+                        <input type="text" id="valorZ" class="valor" value="0.0" readonly>
+                    </div>
                 </div>
                 <div class="input">
                     <label for="deg">Grados</label>
-                    <input type="range" name="deg" id="deg" min="0" max="359">
+                    <div class="inputs">
+                        <input type="range" name="deg" id="deg" min="0" max="359.5" value="45" step="0.5">
+                        <input type="text" id="valorDeg" class="valor" value="0.0" readonly>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,6 +52,7 @@
             <div class="arista abajo">6</div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
