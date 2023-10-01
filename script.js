@@ -6,6 +6,10 @@
 // }
 const cubo = document.querySelector(".cubo")
 
+const inputAxis = document.querySelector("#ejes")
+const axis = document.querySelectorAll(".eje")
+console.log(axis)
+
 const valorX = document.querySelector("#valorX")
 const inputX = document.querySelector("#x")
 valorX.value = inputX.value
@@ -42,4 +46,10 @@ inputZ.addEventListener("input", (event) => {
 inpuDeg.addEventListener("input", (event) => {
     valorDeg.value = event.target.value;
     cubo.style.transform = `rotate3d(${inputX.value}, ${inputY.value}, ${inputZ.value}, ${event.target.value}deg)`
+});
+
+inputAxis.addEventListener("input", (event) => {
+    axis.forEach(element => {
+        element.style.display = element.style.display === 'none' ? '' : 'none';
+    });
 });
