@@ -92,6 +92,19 @@ label{
     border: 3px solid #fff;
 }
 
+.eje {
+    position: absolute;
+    backface-visibility: inherit;
+    width: 250px;
+    height: 250px;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .frente {
     background: rgba(120, 120, 120, 0.7);
     transform: translateZ(103px);
@@ -120,4 +133,22 @@ label{
 .abajo {
     background: rgba(255, 0, 255, 0.7);
     transform: rotateX(-90deg) translateZ(103px);
+}
+
+.x{
+    border-bottom: 5px solid #ff022c;
+    border-right: 5px solid #00a44a;
+    transform: rotateY(180deg) translateZ(125px);
+}
+
+.y{
+    border-left: 5px solid #00a44a;
+    border-bottom: 5px solid #0084ff;
+    transform: rotateY(-90deg) translateZ(125px);
+}
+
+.z{
+    border-left: 5px solid #0084ff;
+    border-bottom: 5px solid #ff022c;
+    transform: rotateX(-90deg) translateZ(125px);
 }
