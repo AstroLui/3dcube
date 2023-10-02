@@ -9,7 +9,7 @@ body {
 .wrapper {
     width: 100vw;
     height: 100vh;
-    background: background-color: #08AEEA;
+    background-color: #08AEEA;
     background-image: linear-gradient(45deg, rgba(2, 117, 255, 1) 0%, rgba(0, 231, 255, 1) 100%);
     display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@ label{
 }
 
 .frente:hover {
-    background: rgba(120, 120, 120, 1);
+    background: rgba(120, 120, 120, 0.9);
 }
 
 .atras:hover {
