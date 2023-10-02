@@ -28,8 +28,8 @@ valorDeg.value = inpuDeg.value
 
 inputX.addEventListener("input", (event) => {
     valorX.value = event.target.value;
-    console.log(typeof event.target.value)
-    console.log(event.target.value)
+    // console.log(typeof event.target.value)
+    // console.log(event.target.value)
     cubo.style.transform = `rotate3d(${event.target.value}, ${inputY.value}, ${inputZ.value}, ${inpuDeg.value}deg)`
 });
 
