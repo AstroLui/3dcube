@@ -14,7 +14,10 @@
             <div class="title">
                 <div class="speaker">Manuel Arenas</div>
                 <div class="text">¿Qué son las transformaciones 2d?</div>
-                <div class="image"><img src="./assets/2d.png" alt="2d"></div>
+                <div class="image">
+                    <div class="fade"></div>
+                    <img src="./assets/2d.png" alt="2d">
+                </div>
             </div>
             <div class="description">
                 <div class="text">
@@ -75,7 +78,7 @@
                         proviene de la evolución de los estándares web y las capacidades de los navegadores.
                     </p>
                     <div class="botonera">
-                        <button onclick="cambiarArita('0,1,0,90deg')">Siguiente</button>
+                        <button onclick="cambiarArista('0,0,0,0deg','0,1,0,90deg')">Siguiente</button>
                     </div>
                 </div>
             </div>
@@ -122,15 +125,18 @@
                         experiencias inmersivas en entornos tridimensionales.
                     </p>
                     <div class="botonera">
-                        <button onclick="cambiarArita('0,1,0,0deg')">Anterior</button>
-                        <button onclick="cambiarArita('0,1,0,180deg')">Siguiente</button>
+                        <button onclick="cambiarArista('0,1,0,90deg', '0,1,0,0deg')">Anterior</button>
+                        <button onclick="cambiarArista('0,1,0,90deg', '0,1,0,180deg')">Siguiente</button>
                     </div>
                 </div>
             </div>
             <div class="title">
                 <div class="speaker">Diego Abreu</div>
                 <div class="text">¿Qué son las transformaciones 3D?</div>
-                <div class="imageizq"><img src="./assets/3d.png" alt="2d"></div>
+                <div class="image">
+                    <div class="fade"></div>
+                    <img src="./assets/3d.png" alt="2d">
+                </div>
             </div>
         </div>
 
@@ -138,7 +144,10 @@
             <div class="title">
                 <div class="speaker">Diego Gonzalez</div>
                 <div class="text">Métodos y propiedades CSS de las transformaciones 3D</div>
-                <div class="image"><img src="./assets/3d-css.png" alt="2d"></div>
+                <div class="image">
+                    <div class="fade"></div>
+                    <img src="./assets/3d-css.png" alt="2d">
+                </div>
             </div>
             <div class="description">
                 <div class="text">
@@ -240,8 +249,8 @@
                         páginas web.
                     </p>
                     <div class="botonera">
-                        <button onclick="cambiarArita('0,1,0,90deg')">Anterior</button>
-                        <button onclick="cambiarArita('0,1,0,270deg')">Siguiente</button>
+                        <button onclick="cambiarArista('0,1,0,180deg', '0,1,0,90deg')">Anterior</button>
+                        <button onclick="cambiarArista('0,1,0,180deg', '0,1,0,270deg')">Siguiente</button>
                     </div>
                 </div>
             </div>
@@ -270,15 +279,18 @@
                         La función translate3d puede ser utilizada para realizar diversos efectos visuales como sombras, simular un efecto de paralaje entre varios elementos, colocando superponiendo varios elementos  para dar una ilusión de profundidad. Etc.
                     </p>
                     <div class="botonera">
-                        <button onclick="cambiarArita('0,1,0,1800deg')">Anterior</button>
-                        <button onclick="cambiarArita('1,0,0,270deg')">Siguiente</button>
+                        <button onclick="cambiarArista('0,1,0,270deg', '0,1,0,1800deg')">Anterior</button>
+                        <button onclick="cambiarArista('0,1,0,270deg', '1,0,0,270deg')">Siguiente</button>
                     </div>
                 </div>
             </div>
             <div class="title">
                 <div class="speaker">Marco Vilera</div>
                 <div class="text">¿Cómo funciona el método translate3d()?</div>
-                <div class=""><img src="./assets/translate.png" alt="2d" style="width: 300px;"></div>
+                <div class="">
+                    <div class="fade"></div>
+                    <img src="./assets/translate.png" alt="2d" style="width: 300px;">
+                </div>
             </div>
         </div>
     
@@ -286,7 +298,10 @@
             <div class="title">
                 <div class="speaker">Moisés Londoño</div>
                 <div class="text">¿Cómo funciona el método scale3d()?</div>
-                <div class=""><img src="./assets/scale.png" alt="2d" style="width: 300px;"></div>
+                <div class="">
+                    <div class="fade"></div>
+                    <img src="./assets/scale.png" alt="2d" style="width: 300px;">
+                </div>
             </div>
             <div class="description">
                 <div class="text">
@@ -305,8 +320,8 @@
     
                     </p>
                     <div class="botonera">
-                        <button onclick="cambiarArita('0,1,0,270deg')">Anterior</button>
-                        <button onclick="cambiarArita('1,0,0,90deg')">Siguiente</button>
+                        <button onclick="cambiarArista('1,0,0,270deg', '0,1,0,270deg')">Anterior</button>
+                        <button onclick="cambiarArista('1,0,0,270deg', '1,0,0,90deg')">Siguiente</button>
                     </div>
                 </div>
             </div>
@@ -335,7 +350,7 @@
                         Cabe destacar las funciones rotateX(), rotateY() y rotateZ(), quienes cumplen usos similares pero de forma individual. Estas toman como parámetro nada más al ángulo de rotación, y va a rotar el elemento en el eje especificado (eje x, y o z)
                     </p>
                     <div class="botonera">
-                        <button onclick="cambiarArita('1,0,0,270deg')">Anterior</button>
+                        <button onclick="cambiarArista('1,0,0,90deg', '1,0,0,270deg')">Anterior</button>
                         <a href="./3d/index.html">
                             <button>Ver ejemplo</button>
                         </a>
@@ -345,7 +360,10 @@
             <div class="title">
                 <div class="speaker">Ricardo Hernández</div>
                 <div class="text">¿Cómo funciona el método rotate3d()?</div>
-                <div class=""><img src="./assets/rotation.png" alt="2d" style="width: 300px;"></div>
+                <div class="">
+                    <div class="fade"></div>
+                    <img src="./assets/rotation.png" alt="2d" style="width: 300px;">
+                </div>
             </div>
         </div>
     </div>
