@@ -1,31 +1,35 @@
 body{
     margin: 0;
-    overflow-x:hidden;
-    scroll-snap-type: y mandatory;
+    background-color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
 }
-
-body > div {
-    scroll-snap-align: center;
-    flex: none;
-    scroll-snap-align: start;
-  }
-  
-.wrapper{
+.cubo {
+    position: relative;
     width: 100vw;
     height: 100vh;
+    transform-style: preserve-3d;
+    transform: rotate3d(0, 0, 0, 0deg); 
+    transition: all 2s ease;
+}
+
+.wrapper{
+    position: absolute;
+    backface-visibility: inherit;
+    width: 100vw;
+    height: 100vh;
+    font-size: 4rem;
+    color: #fff;
     display: flex;
-    gap: 3rem;
-    justify-content: center;
     align-items: center;
-    overflow-y: hidden;
-    overflow-x:hidden;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .title{
     font-size: 4rem;
     color: #fff;
     font-weight: 800;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 40%;
     height: calc(90% - 6rem);
     margin: 3rem 1rem;
@@ -71,7 +75,6 @@ body > div {
     font-size: 1.2rem;
     color: #333;
     font-weight: 300;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 40%;
     height: calc(90% - 6rem);
     background-color: rgba(255, 255, 255, 0.33);
@@ -117,28 +120,63 @@ button{
 
 .primer{
     background-color: rgb(0, 183, 255);
+    transform: translateZ(calc(100vw / 2));
 }
 
 .segundo{
-    background-color: rgb(7, 215, 101);
+    background-color: rgba(7, 215, 101, 1);
+    transform: rotateY(-90deg) translateZ(calc(100vw / 2));
 }
 
 .tercer{
     background-color: rgb(255, 156, 35);
+    transform: rotateY(180deg) translateZ(calc(100vw / 2));
 }
 
 .cuarto{
     background-color: rgb(226, 30, 66);
+    transform: rotateY(90deg) translateZ(calc(100vw / 2));
 }
 
 .quinto{
     background-color: rgb(130, 63, 255);
+    transform: rotatex(90deg) translateZ(calc(100vw / 2));
+
 }
 
 .sexto{
     background-color: rgb(255, 138, 49);
+    transform: rotateX(-90deg) translateZ(calc(100vw / 2));
+}
+
+.noveno{
+    background-color: rgb(49, 131, 255);
+}
+
+.primer button{
+    background-color: rgb(0, 159, 238);
+}
+
+.segundo button{
+    background-color: rgb(5, 176, 82);
+}
+
+.tercer button{
+    background-color: rgb(229, 133, 15);
+}
+
+.cuarto button{
+    background-color: rgb(184, 25, 54);
+}
+
+.quinto button{
+    background-color: rgb(110, 51, 219);
 }
 
 .sexto button{
-    background-color: rgb(225, 98, 2) ;
+    background-color: rgb(225, 98, 2);
+}
+
+.noveno button{
+    background-color: rgb(30, 106, 220);
 }
