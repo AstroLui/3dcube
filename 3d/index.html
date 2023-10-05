@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformaciones 3D</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="config">
+            <div class="titulo">Configuración</div>
+            <div class="opciones">
+                <div class="input">
+                    <label for="x">Componente X</label>
+                    <div class="inputs">
+                        <input type="range" name="x" id="x" min="-10" max="10" value="0" step="0.05">
+                        <input type="text" id="valorX" class="valor" value="0.0" readonly>
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="y">Componente Y</label>
+                    <div class="inputs">
+                        <input type="range" name="y" id="y" min="-10" max="10" value="0" step="0.05">
+                        <input type="text" id="valorY" class="valor" value="0.0" readonly>
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="z">Componente Z</label>
+                    <div class="inputs">
+                        <input type="range" name="z" id="z" min="-10" max="10" value="0" step="0.05">
+                        <input type="text" id="valorZ" class="valor" value="0.0" readonly>
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="deg">Grados</label>
+                    <div class="inputs">
+                        <input type="range" name="deg" id="deg" min="0" max="359.5" value="45" step="0.5">
+                        <input type="text" id="valorDeg" class="valor" value="0.0" readonly>
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="ejes">Ejes</label>
+                    <div class="inputs">
+                        <input type="checkbox" name="ejes" id="ejes" checked>
+                    </div>
+                </div>          
+            </div>
+        </div>
+        <div class="cubo">
+            <div class="arista frente">1</div>
+            <div class="arista atras">2</div>
+            <div class="arista derecha">3</div>
+            <div class="arista izquierda">4</div>
+            <div class="arista arriba">5</div>
+            <div class="arista abajo">6</div>
+            <div class="eje x"></div>
+            <div class="eje y"></div>
+            <div class="eje z"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
