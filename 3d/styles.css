@@ -69,6 +69,15 @@ label{
     color: #666;
 }
 
+button{
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 1rem;
+    background-color: #0275ff;
+}
+
 .cubo {
     position: relative;
     width: 200px;
