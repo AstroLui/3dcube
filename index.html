@@ -9,322 +9,361 @@
 </head>
 
 <body>
-    <div class="wrapper primer">
-        <div class="title">
-            <div class="speaker">Manuel Arenas</div>
-            <div class="text">¿Qué son las transformaciones 2d?</div>
-            <div class="image"><img src="./assets/2d.png" alt="2d"></div>
+    <div class="cubo">
+        <div class="wrapper primer">
+            <div class="title">
+                <div class="speaker">Manuel Arenas</div>
+                <div class="text">¿Qué son las transformaciones 2d?</div>
+                <div class="image"><img src="./assets/2d.png" alt="2d"></div>
+            </div>
+            <div class="description">
+                <div class="text">
+                    <p>
+                        Las transformaciones 2D en la programación web son técnicas que permiten modificar la apariencia
+                        y
+                        posición de elementos HTML en un plano bidimensional. Estas transformaciones se pueden aplicar a
+                        través de CSS y permiten rotar, escalar, sesgar y trasladar elementos en una página web.
+                    </p>
+                    <p>
+                        Algunas de las transformaciones 2D más comunes son:
+                    </p>
+                    <ol>
+                        <li>
+                            <strong>Rotación:</strong> Permite girar un elemento alrededor de un punto de referencia.
+                        </li>
+                        <li>
+                            <strong>Escala:</strong> Permite aumentar o disminuir el tamaño de un elemento.
+                        </li>
+                        <li>
+                            <strong>Sesgado:</strong> Permite inclinar un elemento en un ángulo determinado.
+                        </li>
+                        <li>
+                            <strong>Traslación:</strong> Permite mover un elemento en el plano horizontal o vertical.
+                        </li>
+                    </ol>
+                    <p>
+                        Estas transformaciones se pueden aplicar individualmente o combinadas para lograr efectos más
+                        complejos. Por ejemplo, se puede aplicar una rotación seguida de una escala para crear un efecto
+                        de
+                        zoom en un elemento. Las transformaciones 2D son ampliamente utilizadas en el diseño web para
+                        crear
+                        animaciones, efectos visuales y mejorar la experiencia del usuario.
+                    </p>
+                    <p>
+                        En la actualidad, las transformaciones 2D se utilizan ampliamente en el diseño web para crear
+                        efectos visuales y animaciones interactivas. Pueden ser aplicadas a imágenes, texto, botones y
+                        otros
+                        elementos HTML para mejorar la experiencia del usuario y hacer que un sitio web sea más
+                        atractivo y
+                        dinámico.
+                    </p>
+                    <p>
+                        El uso de transformaciones 2D en programación web tiene sus raíces en la evolución de los
+                        estándares
+                        de diseño web y las capacidades de los navegadores. Anteriormente, los efectos visuales y
+                        animaciones se lograban principalmente utilizando imágenes o complementos de terceros como
+                        Flash.
+                        Sin embargo, con el avance de los estándares web como CSS3 y HTML5, se introdujeron nuevas
+                        propiedades y funciones que permiten realizar transformaciones directamente en el navegador sin
+                        necesidad de software externo.
+                    </p>
+                    <p>
+                        En resumen, las transformaciones 2D en la programación web son una herramienta poderosa para
+                        crear
+                        efectos visuales y animaciones interactivas. Su uso se ha vuelto común en el diseño web actual
+                        debido a su capacidad para mejorar la apariencia y la experiencia del usuario, y su aplicación
+                        proviene de la evolución de los estándares web y las capacidades de los navegadores.
+                    </p>
+                    <div class="botonera">
+                        <button onclick="cambiarArita('0,1,0,90deg')">Siguiente</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="description">
-            <div class="text">
-                <p>
-                    Las transformaciones 2D en la programación web son técnicas que permiten modificar la apariencia y
-                    posición de elementos HTML en un plano bidimensional. Estas transformaciones se pueden aplicar a
-                    través de CSS y permiten rotar, escalar, sesgar y trasladar elementos en una página web. 
-                </p>
-                <p>
-                    Algunas de las transformaciones 2D más comunes son:
-                </p>
-                <ol>
-                    <li>
-                        <strong>Rotación:</strong> Permite girar un elemento alrededor de un punto de referencia.
-                    </li>
-                    <li>
-                        <strong>Escala:</strong> Permite aumentar o disminuir el tamaño de un elemento.
-                    </li>
-                    <li>
-                        <strong>Sesgado:</strong> Permite inclinar un elemento en un ángulo determinado.
-                    </li>
-                    <li>
-                        <strong>Traslación:</strong> Permite mover un elemento en el plano horizontal o vertical.
-                    </li>
-                </ol>
-                <p>
-                    Estas transformaciones se pueden aplicar individualmente o combinadas para lograr efectos más
-                    complejos. Por ejemplo, se puede aplicar una rotación seguida de una escala para crear un efecto de
-                    zoom en un elemento. Las transformaciones 2D son ampliamente utilizadas en el diseño web para crear
-                    animaciones, efectos visuales y mejorar la experiencia del usuario.
-                </p>
-                <p>
-                    En la actualidad, las transformaciones 2D se utilizan ampliamente en el diseño web para crear
-                    efectos visuales y animaciones interactivas. Pueden ser aplicadas a imágenes, texto, botones y otros
-                    elementos HTML para mejorar la experiencia del usuario y hacer que un sitio web sea más atractivo y
-                    dinámico.
-                </p>
-                <p>
-                    El uso de transformaciones 2D en programación web tiene sus raíces en la evolución de los estándares
-                    de diseño web y las capacidades de los navegadores. Anteriormente, los efectos visuales y
-                    animaciones se lograban principalmente utilizando imágenes o complementos de terceros como Flash.
-                    Sin embargo, con el avance de los estándares web como CSS3 y HTML5, se introdujeron nuevas
-                    propiedades y funciones que permiten realizar transformaciones directamente en el navegador sin
-                    necesidad de software externo.
-                </p>
-                <p>
-                    En resumen, las transformaciones 2D en la programación web son una herramienta poderosa para crear
-                    efectos visuales y animaciones interactivas. Su uso se ha vuelto común en el diseño web actual
-                    debido a su capacidad para mejorar la apariencia y la experiencia del usuario, y su aplicación
-                    proviene de la evolución de los estándares web y las capacidades de los navegadores.
-                </p>
+
+        <div class="wrapper segundo">
+            <div class="description">
+                <div class="text">
+                    <p>
+                        Las transformaciones 3D en programación web son operaciones matemáticas que se aplican a objetos
+                        tridimensionales en un entorno gráfico utilizando tecnologías como CSS3 y JavaScript.
+                    </p>
+                    <p>
+                        Los tipos más comunes de transformaciones 3D en programación web son la traslación, la rotación
+                        y la
+                        escala.
+                    </p>
+                    <ol>
+                        <li>
+                            <strong>Traslación en programación web:</strong> Utilizando CSS3, se puede aplicar la
+                            propiedad
+                            <span class="code">transform: translate3d(x, y, z)</span> para mover un objeto en las
+                            direcciones x, y y z del espacio
+                            3D.
+                        </li>
+                        <li>
+                            <strong>Rotación en programación web:</strong> Mediante la propiedad <span
+                                class="code">transform: rotate3d(x, y,
+                                z, angle)</span> en CSS3 o utilizando bibliotecas de JavaScript como Three.js, se puede
+                            rotar un
+                            objeto alrededor de un eje especificado por los valores x, y y z, y el ángulo de rotación.
+
+                        </li>
+                        <li>
+                            <strong>Escala en programación web:</strong> Con CSS3, se puede utilizar la propiedad
+                            <span class="code">transform: scale3d(x, y, z)</span> para cambiar el tamaño de un objeto en
+                            el espacio 3D en las
+                            direcciones x, y y z.
+                        </li>
+                    </ol>
+                    <p>
+                        Las transformaciones 3D son ampliamente utilizadas en el desarrollo de sitios web interactivos,
+                        aplicaciones web y juegos en línea. Se pueden aplicar para crear animaciones, efectos visuales y
+                        experiencias inmersivas en entornos tridimensionales.
+                    </p>
+                    <div class="botonera">
+                        <button onclick="cambiarArita('0,1,0,0deg')">Anterior</button>
+                        <button onclick="cambiarArita('0,1,0,180deg')">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <div class="speaker">Diego Abreu</div>
+                <div class="text">¿Qué son las transformaciones 3D?</div>
+                <div class="imageizq"><img src="./assets/3d.png" alt="2d"></div>
+            </div>
+        </div>
+
+        <div class="wrapper tercer">
+            <div class="title">
+                <div class="speaker">Diego Gonzalez</div>
+                <div class="text">Métodos y propiedades CSS de las transformaciones 3D</div>
+                <div class="image"><img src="./assets/3d-css.png" alt="2d"></div>
+            </div>
+            <div class="description">
+                <div class="text">
+                    <p>Métodos CSS que puedes utilizar para aplicar transformaciones 3D en elementos HTML:</p>
+                    <ol>
+                        <li>
+                            <span class="subtitle">translate3d(x, y, z)</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Este método mueve un elemento en tres dimensiones
+                                    especificando las cantidades de traslación en los ejes x, y y z. Puedes usar valores
+                                    positivos o negativos para mover el elemento en diferentes direcciones.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">transform: translate3d(50px, 20px,
+                                        30px);</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subtitle">scale3d(x, y, z)</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Escala un elemento en tres dimensiones especificando las
+                                    cantidades de escala en los ejes x, y y z. Los valores mayores que 1 aumentarán el
+                                    tamaño, mientras que los valores entre 0 y 1 lo reducirán.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">transform: scale3d(2, 1.5, 0.5);</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subtitle">rotate3d(x, y, z, angle)</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Rota un elemento en tres dimensiones alrededor de un
+                                    vector definido por los valores x, y y z, aplicando un ángulo de rotación en grados.
+                                    Puedes especificar un vector de rotación personalizado.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">transform: rotate3d(1, 1, 1, 45deg);</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subtitle">perspective(n)</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Define la perspectiva para elementos 3D en un contenedor.
+                                    Cuanto menor sea el valor de "n", mayor será la perspectiva, lo que hará que los objetos
+                                    parezcan más alejados. Un valor común es "1000px".</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">perspective: 1000px;</span></li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <br>
+                    <p>Propiedades CSS que puedes utilizar para aplicar transformaciones 3D en elementos HTML:</p>
+                    <ol>
+                        <li>
+                            <span class="subtitle">transform-style</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Se utiliza en el contenedor de elementos 3D para mantener
+                                    la profundidad tridimensional de los elementos hijos. Esto es importante cuando tienes
+                                    elementos anidados en 3D.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">transform-style: preserve-3d;</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subtitle">backface-visibility</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Controla si la cara posterior de un elemento 3D es visible
+                                    o no. Al establecerlo en "hidden", puedes ocultar las caras traseras de los elementos
+                                    girados.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">backface-visibility: hidden;</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subtitle">perspective-origin</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Define el punto de origen de la perspectiva para las
+                                    transformaciones 3D. Puedes especificar las coordenadas x e y para personalizar la
+                                    ubicación del punto de vista en el contenedor.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">perspective-origin: 50% 50%;</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subtitle">transform-origin</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Define el punto de origen de las transformaciones 3D en un
+                                    elemento. Esto determina el punto en torno al cual se aplican las transformaciones en el
+                                    elemento individual.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">transform-origin: 0 0 0;</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subtitle">transform-style</span>
+                            <ul>
+                                <li><strong>Descripción:</strong> Establece el estilo de transformación 3D en "flat", lo que
+                                    hace que los elementos hijos se apliquen en el mismo plano que el elemento padre,
+                                    eliminando la profundidad 3D.</li>
+                                <li><strong>Ejemplo:</strong> <span class="code">transform-style: flat;</span></li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <br>
+                    <p>
+                        Estos métodos CSS te permiten controlar y personalizar las transformaciones 3D en tus elementos
+                        HTML, lo que te brinda la capacidad de crear efectos visuales tridimensionales y animaciones en tus
+                        páginas web.
+                    </p>
+                    <div class="botonera">
+                        <button onclick="cambiarArita('0,1,0,90deg')">Anterior</button>
+                        <button onclick="cambiarArita('0,1,0,270deg')">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="wrapper cuarto">
+            <div class="description">
+                <div class="text">
+                    <p>
+                        La función translate3d() mueve la posición del elemento dentro de un espacio tridimensional. Retorna el tipo de dato &lt;transform-function&gt;, que es un tipo de dato que representa una transformación que afecta la apariencia del elemento, pudiendo ser de manera bidimensional, o tridimensional. Esta transformación se caracteriza por un vector tridimensional, cuyas coordenadas definen qué tanto se moverá en cada dirección. Esta transformación se caracteriza por un vector tridimensional [tx, ty, tz]. Sus coordenadas definen cuánto se desplaza el elemento en cada dirección.
+                    </p>
+                    <span class="code">transform: translate3d(tx, ty, tz);</span>
+                    <p>
+                        Donde tx, pudiendo ser un porcentaje o una medida (px, rem, in, etc.) representa la componente en X del vector de translación.
+                    </p>
+                    <p>
+                        ty, igualmente pudiendo ser un porcentaje o una medida (px, rem, in, etc.) representa la componente en Y del vector de translación.
+                    </p>
+                    <p>
+                        Finalmente, tz, siendo únicamente posible ser una medida, representa la componente en Z del vector de translación, en caso de ingresar un porcentaje este haría que la translación no sea válida.
+                    </p>
+                    <p>
+                        La función translate3d puede ser utilizada para realizar diversos efectos visuales como sombras, simular un efecto de paralaje entre varios elementos, colocando superponiendo varios elementos  para dar una ilusión de profundidad. Etc.
+                    </p>
+                    <p>
+                        La función translate3d puede ser utilizada para realizar diversos efectos visuales como sombras, simular un efecto de paralaje entre varios elementos, colocando superponiendo varios elementos  para dar una ilusión de profundidad. Etc.
+                    </p>
+                    <div class="botonera">
+                        <button onclick="cambiarArita('0,1,0,1800deg')">Anterior</button>
+                        <button onclick="cambiarArita('1,0,0,270deg')">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <div class="speaker">Marco Vilera</div>
+                <div class="text">¿Cómo funciona el método translate3d()?</div>
+                <div class=""><img src="./assets/translate.png" alt="2d" style="width: 300px;"></div>
+            </div>
+        </div>
+    
+        <div class="wrapper quinto">
+            <div class="title">
+                <div class="speaker">Moisés Londoño</div>
+                <div class="text">¿Cómo funciona el método scale3d()?</div>
+                <div class=""><img src="./assets/scale.png" alt="2d" style="width: 300px;"></div>
+            </div>
+            <div class="description">
+                <div class="text">
+                    <p>
+                        El escalado 3D es una técnica utilizada para aumentar o disminuir el tamaño de un objeto tridimensional de manera proporcional sin perder calidad en la imagen. Este puede servir para cambiar el tamaño de un objeto para que se vea más grande o más pequeño, adaptar un objeto a un espacio determinado, crear un efecto de perspectiva, crear un efecto de estiramiento o compresión. 
+                    </p>
+                    <p>
+                        El método scale3d() es una función de transformación que se utiliza en CSS para cambiar el tamaño de un elemento en tres dimensiones. Se utiliza para aplicar un cambio de escala a lo largo del eje x, y, y z al mismo tiempo.
+                    </p>
+                    <span class="code">transform: scale3d(x,y,z)</span>
+                    <p>
+                        Donde "x" representa el valor de escala en el eje x, "y" representa el valor de escala en el eje y "z" representa el valor de escala en el eje z. Se puede utilizar valores decimales para representar la fracción de cambio en la escala, por ejemplo, 1.5 significa un aumento del 50% en la escala.
+                    </p>
+                    <p>
+                        El parámetro x determina el cambio en la anchura del elemento, el parámetro y afecta a la altura y el parámetro z determina el cambio en la profundidad del elemento. Al combinar diferentes valores para estos parámetros, se puede realizar un escalado tridimensional del elemento en todas las direcciones.
+    
+                    </p>
+                    <p>
+                        El uso de transformaciones 2D en programación web tiene sus raíces en la evolución de los estándares
+                        de diseño web y las capacidades de los navegadores. Anteriormente, los efectos visuales y
+                        animaciones se lograban principalmente utilizando imágenes o complementos de terceros como Flash.
+                        Sin embargo, con el avance de los estándares web como CSS3 y HTML5, se introdujeron nuevas
+                        propiedades y funciones que permiten realizar transformaciones directamente en el navegador sin
+                        necesidad de software externo.
+                    </p>
+                    <p>
+                        En resumen, las transformaciones 2D en la programación web son una herramienta poderosa para crear
+                        efectos visuales y animaciones interactivas. Su uso se ha vuelto común en el diseño web actual
+                        debido a su capacidad para mejorar la apariencia y la experiencia del usuario, y su aplicación
+                        proviene de la evolución de los estándares web y las capacidades de los navegadores.
+                    </p>
+                    <div class="botonera">
+                        <button onclick="cambiarArita('0,1,0,270deg')">Anterior</button>
+                        <button onclick="cambiarArita('1,0,0,90deg')">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="wrapper sexto">
+            <div class="description">
+                <div class="text">
+                    <p>
+                        La función rotate3d() es una transformación que rota un elemento alrededor de un eje fijo en el espacio tridimensional sin deformarlo. Esta función toma cuatro parámetros: x, y, z y ángulo. Los primeros tres parámetros (x, y, z) son números positivos o negativos que definen las coordenadas de un vector unitario que representa el eje de rotación del o los elementos, el cual pasa por el origen, mientras que el cuarto parámetro (ángulo) define la cantidad de rotación (en deg, turn, rad):
+                    </p>
+                    <span class="code">transform: rotate3d(x, y, z, ángulo);</span>
+                    <p>
+                        El ángulo se puede especificar como un número positivo, lo que hará que el elemento rote en sentido antihorario por el eje, o negativo, que de lo contrario hará que rote en sentido horario.
+                    </p>
+                    <p>
+                        <strong>Ejemplos de sintaxis:</strong>
+                    </p>
+                    <ol>
+                        <li>transform: rotate3d(0);</li>
+                        <li>transform: rotate3d(1, 1, 1, 45deg);</li>
+                        <li>transform: rotate3d(2, -1, -1, -0.2turn);</li>
+                        <li>transform: rotate3d(0, 1, 0.5, 3.142rad);</li>
+                    </ol>
+                    <p>
+                        Cabe destacar las funciones rotateX(), rotateY() y rotateZ(), quienes cumplen usos similares pero de forma individual. Estas toman como parámetro nada más al ángulo de rotación, y va a rotar el elemento en el eje especificado (eje x, y o z)
+                    </p>
+                    <div class="botonera">
+                        <button onclick="cambiarArita('1,0,0,270deg')">Anterior</button>
+                        <a href="./3d/index.html">
+                            <button>Ver ejemplo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <div class="speaker">Ricardo Hernández</div>
+                <div class="text">¿Cómo funciona el método rotate3d()?</div>
+                <div class=""><img src="./assets/rotation.png" alt="2d" style="width: 300px;"></div>
             </div>
         </div>
     </div>
-
-    <div class="wrapper segundo">
-        <div class="description">
-            <div class="text">
-                <p>
-                    Las transformaciones 3D en programación web son operaciones matemáticas que se aplican a objetos
-                    tridimensionales en un entorno gráfico utilizando tecnologías como CSS3 y JavaScript.
-                </p>
-                <p>
-                    Los tipos más comunes de transformaciones 3D en programación web son la traslación, la rotación y la
-                    escala.
-                </p>
-                <ol>
-                    <li>
-                        <strong>Traslación en programación web:</strong> Utilizando CSS3, se puede aplicar la propiedad
-                        <span class="code">transform: translate3d(x, y, z)</span> para mover un objeto en las direcciones x, y y z del espacio
-                        3D.
-                    </li>
-                    <li>
-                        <strong>Rotación en programación web:</strong> Mediante la propiedad <span class="code">transform: rotate3d(x, y,
-                        z, angle)</span> en CSS3 o utilizando bibliotecas de JavaScript como Three.js, se puede rotar un
-                        objeto alrededor de un eje especificado por los valores x, y y z, y el ángulo de rotación.
-
-                    </li>
-                    <li>
-                        <strong>Escala en programación web:</strong> Con CSS3, se puede utilizar la propiedad
-                        <span class="code">transform: scale3d(x, y, z)</span> para cambiar el tamaño de un objeto en el espacio 3D en las
-                        direcciones x, y y z.
-                    </li>
-                </ol>
-                <p>
-                    Las transformaciones 3D son ampliamente utilizadas en el desarrollo de sitios web interactivos,
-                    aplicaciones web y juegos en línea. Se pueden aplicar para crear animaciones, efectos visuales y
-                    experiencias inmersivas en entornos tridimensionales.
-                </p>
-            </div>
-        </div>
-        <div class="title">
-            <div class="speaker">Diego Abreu</div>
-            <div class="text">¿Qué son las transformaciones 3D?</div>
-            <div class="imageizq"><img src="./assets/3d.png" alt="2d"></div>
-        </div>
-    </div>
-
-    <div class="wrapper tercer">
-        <div class="title">
-            <div class="speaker">Diego Gonzalez</div>
-            <div class="text">Métodos y propiedades CSS de las transformaciones 3D</div>
-            <div class="image"><img src="./assets/3d-css.png" alt="2d"></div>
-        </div>
-        <div class="description">
-            <div class="text">
-                <p>Métodos CSS que puedes utilizar para aplicar transformaciones 3D en elementos HTML:</p>
-                <ol>
-                    <li>
-                        <span class="subtitle">translate3d(x, y, z)</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Este método mueve un elemento en tres dimensiones
-                                especificando las cantidades de traslación en los ejes x, y y z. Puedes usar valores
-                                positivos o negativos para mover el elemento en diferentes direcciones.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">transform: translate3d(50px, 20px,
-                                    30px);</span></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="subtitle">scale3d(x, y, z)</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Escala un elemento en tres dimensiones especificando las
-                                cantidades de escala en los ejes x, y y z. Los valores mayores que 1 aumentarán el
-                                tamaño, mientras que los valores entre 0 y 1 lo reducirán.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">transform: scale3d(2, 1.5, 0.5);</span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="subtitle">rotate3d(x, y, z, angle)</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Rota un elemento en tres dimensiones alrededor de un
-                                vector definido por los valores x, y y z, aplicando un ángulo de rotación en grados.
-                                Puedes especificar un vector de rotación personalizado.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">transform: rotate3d(1, 1, 1, 45deg);</span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="subtitle">perspective(n)</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Define la perspectiva para elementos 3D en un contenedor.
-                                Cuanto menor sea el valor de "n", mayor será la perspectiva, lo que hará que los objetos
-                                parezcan más alejados. Un valor común es "1000px".</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">perspective: 1000px;</span></li>
-                        </ul>
-                    </li>
-                </ol>
-                <br>
-                <p>Propiedades CSS que puedes utilizar para aplicar transformaciones 3D en elementos HTML:</p>
-                <ol>
-                    <li>
-                        <span class="subtitle">transform-style</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Se utiliza en el contenedor de elementos 3D para mantener
-                                la profundidad tridimensional de los elementos hijos. Esto es importante cuando tienes
-                                elementos anidados en 3D.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">transform-style: preserve-3d;</span></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="subtitle">backface-visibility</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Controla si la cara posterior de un elemento 3D es visible
-                                o no. Al establecerlo en "hidden", puedes ocultar las caras traseras de los elementos
-                                girados.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">backface-visibility: hidden;</span></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="subtitle">perspective-origin</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Define el punto de origen de la perspectiva para las
-                                transformaciones 3D. Puedes especificar las coordenadas x e y para personalizar la
-                                ubicación del punto de vista en el contenedor.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">perspective-origin: 50% 50%;</span></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="subtitle">transform-origin</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Define el punto de origen de las transformaciones 3D en un
-                                elemento. Esto determina el punto en torno al cual se aplican las transformaciones en el
-                                elemento individual.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">transform-origin: 0 0 0;</span></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="subtitle">transform-style</span>
-                        <ul>
-                            <li><strong>Descripción:</strong> Establece el estilo de transformación 3D en "flat", lo que
-                                hace que los elementos hijos se apliquen en el mismo plano que el elemento padre,
-                                eliminando la profundidad 3D.</li>
-                            <li><strong>Ejemplo:</strong> <span class="code">transform-style: flat;</span></li>
-                        </ul>
-                    </li>
-                </ol>
-                <br>
-                <p>
-                    Estos métodos CSS te permiten controlar y personalizar las transformaciones 3D en tus elementos
-                    HTML, lo que te brinda la capacidad de crear efectos visuales tridimensionales y animaciones en tus
-                    páginas web.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="wrapper cuarto">
-        <div class="description">
-            <div class="text">
-                <p>
-                    La función translate3d() mueve la posición del elemento dentro de un espacio tridimensional. Retorna el tipo de dato &lt;transform-function&gt;, que es un tipo de dato que representa una transformación que afecta la apariencia del elemento, pudiendo ser de manera bidimensional, o tridimensional. Esta transformación se caracteriza por un vector tridimensional, cuyas coordenadas definen qué tanto se moverá en cada dirección. Esta transformación se caracteriza por un vector tridimensional [tx, ty, tz]. Sus coordenadas definen cuánto se desplaza el elemento en cada dirección.
-                </p>
-                <span class="code">transform: translate3d(tx, ty, tz);</span>
-                <p>
-                    Donde tx, pudiendo ser un porcentaje o una medida (px, rem, in, etc.) representa la componente en X del vector de translación.
-                </p>
-                <p>
-                    ty, igualmente pudiendo ser un porcentaje o una medida (px, rem, in, etc.) representa la componente en Y del vector de translación.
-                </p>
-                <p>
-                    Finalmente, tz, siendo únicamente posible ser una medida, representa la componente en Z del vector de translación, en caso de ingresar un porcentaje este haría que la translación no sea válida.
-                </p>
-                <p>
-                    La función translate3d puede ser utilizada para realizar diversos efectos visuales como sombras, simular un efecto de paralaje entre varios elementos, colocando superponiendo varios elementos  para dar una ilusión de profundidad. Etc.
-                </p>
-                <p>
-                    La función translate3d puede ser utilizada para realizar diversos efectos visuales como sombras, simular un efecto de paralaje entre varios elementos, colocando superponiendo varios elementos  para dar una ilusión de profundidad. Etc.
-                </p>
-            </div>
-        </div>
-        <div class="title">
-            <div class="speaker">Marco Vilera</div>
-            <div class="text">¿Cómo funciona el método translate3d()?</div>
-            <div class=""><img src="./assets/translate.png" alt="2d" style="width: 300px;"></div>
-        </div>
-    </div>
-
-    <div class="wrapper quinto">
-        <div class="title">
-            <div class="speaker">Moisés Londoño</div>
-            <div class="text">¿Cómo funciona el método scale3d()?</div>
-            <div class=""><img src="./assets/scale.png" alt="2d" style="width: 300px;"></div>
-        </div>
-        <div class="description">
-            <div class="text">
-                <p>
-                    El escalado 3D es una técnica utilizada para aumentar o disminuir el tamaño de un objeto tridimensional de manera proporcional sin perder calidad en la imagen. Este puede servir para cambiar el tamaño de un objeto para que se vea más grande o más pequeño, adaptar un objeto a un espacio determinado, crear un efecto de perspectiva, crear un efecto de estiramiento o compresión. 
-                </p>
-                <p>
-                    El método scale3d() es una función de transformación que se utiliza en CSS para cambiar el tamaño de un elemento en tres dimensiones. Se utiliza para aplicar un cambio de escala a lo largo del eje x, y, y z al mismo tiempo.
-                </p>
-                <span class="code">transform: scale3d(x,y,z)</span>
-                <p>
-                    Donde "x" representa el valor de escala en el eje x, "y" representa el valor de escala en el eje y "z" representa el valor de escala en el eje z. Se puede utilizar valores decimales para representar la fracción de cambio en la escala, por ejemplo, 1.5 significa un aumento del 50% en la escala.
-                </p>
-                <p>
-                    El parámetro x determina el cambio en la anchura del elemento, el parámetro y afecta a la altura y el parámetro z determina el cambio en la profundidad del elemento. Al combinar diferentes valores para estos parámetros, se puede realizar un escalado tridimensional del elemento en todas las direcciones.
-
-                </p>
-                <p>
-                    El uso de transformaciones 2D en programación web tiene sus raíces en la evolución de los estándares
-                    de diseño web y las capacidades de los navegadores. Anteriormente, los efectos visuales y
-                    animaciones se lograban principalmente utilizando imágenes o complementos de terceros como Flash.
-                    Sin embargo, con el avance de los estándares web como CSS3 y HTML5, se introdujeron nuevas
-                    propiedades y funciones que permiten realizar transformaciones directamente en el navegador sin
-                    necesidad de software externo.
-                </p>
-                <p>
-                    En resumen, las transformaciones 2D en la programación web son una herramienta poderosa para crear
-                    efectos visuales y animaciones interactivas. Su uso se ha vuelto común en el diseño web actual
-                    debido a su capacidad para mejorar la apariencia y la experiencia del usuario, y su aplicación
-                    proviene de la evolución de los estándares web y las capacidades de los navegadores.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="wrapper sexto">
-        <div class="description">
-            <div class="text">
-                <p>
-                    La función rotate3d() es una transformación que rota un elemento alrededor de un eje fijo en el espacio tridimensional sin deformarlo. Esta función toma cuatro parámetros: x, y, z y ángulo. Los primeros tres parámetros (x, y, z) son números positivos o negativos que definen las coordenadas de un vector unitario que representa el eje de rotación del o los elementos, el cual pasa por el origen, mientras que el cuarto parámetro (ángulo) define la cantidad de rotación (en deg, turn, rad):
-                </p>
-                <span class="code">transform: rotate3d(x, y, z, ángulo);</span>
-                <p>
-                    El ángulo se puede especificar como un número positivo, lo que hará que el elemento rote en sentido antihorario por el eje, o negativo, que de lo contrario hará que rote en sentido horario.
-                </p>
-                <p>
-                    <strong>Ejemplos de sintaxis:</strong>
-                </p>
-                <ol>
-                    <li>transform: rotate3d(0);</li>
-                    <li>transform: rotate3d(1, 1, 1, 45deg);</li>
-                    <li>transform: rotate3d(2, -1, -1, -0.2turn);</li>
-                    <li>transform: rotate3d(0, 1, 0.5, 3.142rad);</li>
-                </ol>
-                <p>
-                    Cabe destacar las funciones rotateX(), rotateY() y rotateZ(), quienes cumplen usos similares pero de forma individual. Estas toman como parámetro nada más al ángulo de rotación, y va a rotar el elemento en el eje especificado (eje x, y o z)
-                </p>
-                <a href="./3d/index.html">
-                    <button>Ver ejemplo</button>
-                </a>
-            </div>
-        </div>
-        <div class="title">
-            <div class="speaker">Ricardo Hernández</div>
-            <div class="text">¿Cómo funciona el método rotate3d()?</div>
-            <div class=""><img src="./assets/rotation.png" alt="2d" style="width: 300px;"></div>
-        </div>
-    </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
